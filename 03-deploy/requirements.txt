@@ -1,0 +1,5 @@
+# Client-side load test (run on any machine)
+openai>=1.40
+
+# Server side (run on a GPU, e.g. Colab T4) — installed by serve_colab.sh:
+#   vllm>=0.6

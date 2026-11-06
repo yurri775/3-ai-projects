@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# --- Secrets / env ---
+.env
+*.key
+
+# --- 01-rag: local vector store ---
+01-rag/chroma_db/
+01-rag/.chroma/
+
+# --- 02-agents: sandboxed workspace + run logs ---
+02-agents/workspace/
+02-agents/logs/
+*.log
+
+# --- 03-deploy: model weights / caches ---
+.cache/
+*.gguf
+*.safetensors
+vllm.log
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
